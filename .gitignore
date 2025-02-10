@@ -1,0 +1,90 @@
+# .NET Core & .NET 6+ Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.vsp
+*.vspx
+*.log
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.vscode/
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# Xamarin/Maui Build Artifacts
+**/bin/
+**/obj/
+**/AppPackages/
+**/Bundles/
+**/archives/
+**/logs/
+
+# Generated Packages
+*.nupkg
+*.snupkg
+**/nuget/
+
+# Dependency Cache
+packages/
+!packages/*.md
+**/project.lock.json
+**/project.assets.json
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# macOS & iOS
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+**/__MACOSX/
+**/*.ipa
+**/DerivedData/
+
+# Android
+**/*.apk
+**/*.aab
+**/android/.gradle/
+**/android/.cxx/
+**/android/local.properties
+**/android/app/google-services.json
+**/android/app/src/debug/res/
+
+# Windows
+**/WinUI/bin/
+**/WinUI/obj/
+**/WinUI/AppPackages/
+**/WinUI/Package.StoreAssociation.xml
+
+# Maui & Blazor Hybrid
+**/Platforms/Android/bin/
+**/Platforms/Android/obj/
+**/Platforms/iOS/bin/
+**/Platforms/iOS/obj/
+**/Platforms/MacCatalyst/bin/
+**/Platforms/MacCatalyst/obj/
+**/Platforms/Tizen/bin/
+**/Platforms/Tizen/obj/
+**/Platforms/Windows/bin/
+**/Platforms/Windows/obj/
+
+# Logs & IDE Settings
+*.log
+*.tlog
+**/logs/
+**/launchSettings.json
+
+# Miscellaneous
+Thumbs.db
+ehthumbs.db
+Desktop.ini
