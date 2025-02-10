@@ -27,7 +27,6 @@
                        HorizontalOptions="Center" 
                        FontAttributes="Bold"/>
 
-                <!-- Generando 20 elementos -->
                 <Label Text="Elemento 1" FontSize="18"/>
                 <Label Text="Elemento 2" FontSize="18"/>
                 <Label Text="Elemento 3" FontSize="18"/>
